@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Viga', sans-serif;
-
+  background-image: url("images/patternpad.svg");
 }
 
 header {
@@ -50,12 +50,12 @@ nav, li, ul, .nav-links {
 
 .home-img {
   width: 65%;
+  min-width: 300px;
 }
 
 .main-text, .main-img {
   flex: 1;
 }
-
 
 .head-text {
   color: #00F0FF;
@@ -127,94 +127,96 @@ span {
   display: flex;
 }
 
-.rect2,.rect4 {
+.rect2, .rect4 {
   left: 1rem;
 }
 
-.bc-head, .bc-p,.data-p,.text-data  {
+.bc-head, .bc-p, .data-p, .text-data {
   padding-left: 9.8rem;
 }
 
-.bc-head,.content-head,.text-data {
+.bc-head, .content-head, .text-data {
   padding-top: 5.5rem;
   font-size: 1.8rem;
   color: #1405FD;
 }
 
-.bc-p,.content-p,.data-p {
+.bc-p, .content-p, .data-p {
   padding-top: 3rem;
   line-height: 2.2;
   width: 90%;
 }
 
-.rect3{
-  right:1rem;
+.rect3 {
+  right: 1rem;
 }
-.content-p{
+
+.content-p {
   color: #393e46;
 }
-.content-verification{
+
+.content-verification {
   display: flex;
   padding-top: 3rem;
   justify-content: space-between;
-
-
-
 }
-.text-cont{
+
+.text-cont {
   position: relative;
   z-index: 1;
   margin: auto;
-  left:6rem;
+  left: 6rem;
   width: 80%;
-
 }
-.data-ownership{
+
+.data-ownership {
   display: flex;
   padding-top: 1rem;
   justify-content: space-between;
-
 }
-.cta{
 
+.cta {
   text-align: center;
   padding-top: 10rem;
-
-
 }
-.cta-head{
+
+.cta-head {
   font-size: 2.5rem;
   padding-bottom: 2rem;
   color: #393e46;
 }
-.join-now{
+
+.join-now {
   width: 25%;
   padding-bottom: 6rem;
 }
-.footer{
 
+.footer {
   height: 10vh;
   background-color: #813FC3;
   text-align: center;
 }
-.footer-p{
+
+.footer-p {
   color: white;
   padding-top: 2rem;
 }
 
-.bc-svg{
+.bc-svg {
   position: relative;
-  right:4rem;
-  top:3rem;
+  right: 4rem;
+  top: 3rem;
 }
 
-.content-svg{
+.content-svg {
   position: relative;
-  left:3rem;
-  top:3rem;
+  left: 3rem;
+  top: 3rem;
 }
-.data-svg{
+
+.data-svg {
   position: relative;
-  right:3rem;
-  top:3rem;
+  right: 3rem;
+  top: 3rem;
+  height: 50%;
 }
